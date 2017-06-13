@@ -1,0 +1,101 @@
+* {
+  padding: 5px;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #d3d3d3;
+}
+/* DEFUNCT SLASH*/
+#lslash {
+  position: absolute;
+
+  background-color: red;
+  margin-left: 84px;
+  margin-top: -81px;
+
+
+}
+
+
+form {
+  background-color: #d3d3d3;
+}
+
+h1 {
+  color: black;
+}
+
+.nvidia_header img {
+ height: 200px;
+ width: 400px;
+ margin-left: -5px;
+ margin-top: -50px;
+}
+.nvidia_header h1 {
+  margin-left: 580px;
+  margin-top: -136px;
+}
+.it_form {
+  /*border-style: solid;
+  border-radius: 10px;*/
+  padding: 20px;
+  width: auto;
+  height: auto;
+  margin-top: 40px;
+  opacity: 0.8;
+}
+label {
+font-weight: bold;
+display: inline-block;
+float: left;
+clear: left;
+width: 101px;
+text-align: right;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  background-color: #a1a7b3;
+
+}
+
+button {
+background-color: #77b800;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+border-style: solid;
+border-color: black;
+border-radius: 10px;
+padding: 10px;
+
+}
+
+.cablelocks {
+top: 100px;
+margin-top: -494px;
+margin-right: 97px;
+float: right;
+}
+
+.proto_button {
+  margin-left: -160px;
+  margin-top: 28px;
+}
+table {
+  border-style: solid;
+  border-color: #77b800;
+  background-color: #77b800;
+  color: black;
+}
+
+#line {
+  background-color: black;
+  width: auto;
+  height: 9px;
+}
+
+#codebox {
+height: 200px;
+width: 200px;
+z-index: 0;
+}

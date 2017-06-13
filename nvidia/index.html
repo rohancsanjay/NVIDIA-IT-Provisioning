@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+        <!-- <script src="js/app.js" charset="utf-8"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="js/jquery.js" charset="utf-8"></script> -->
+    <title>NVIDIA IT</title>
+  </head>
+  <body>
+    <header>
+        <div class="nvidia_header">
+          <a href="https://http://www.nvidia.com/page/home.html">
+            <img src="nvidia.png" alt="n/a">
+          </a>
+            <h1 id="my_head">NVIDIA IT PROVISIONING</h1>
+        </div>
+    </header>
+    <div class="it_form">
+      <hr id="line">
+      <h1>Prototype Equipment Generator</h1>
+      <form class="" action="index.html" method="post">
+        <label for="setup">Set Ups: </label>
+        <input type="number" id="setup"> <br> <br>
+        <label for=""># of Monitors: </label>
+        <input type="number" id="monitors"> <br> <br>
+        <a href="https://jet.com/product/detail/ff8bb5532c6d42e1a7f7a871426fe5f9?jcmp=pla:ggl:NJ_dur_Cwin_Electronics_a1:Electronics_Computers_Accessories_Computer_Accessories_a1:na:PLA_785510854_39764719343_pla-484270091512:na:na:na:2&code=PLA15&pid=kenshoo_int&c=785510854&is_retargeting=true&clickid=b42e844a-b9a9-4f47-940d-d2546902ff3e">
+        <label for="dock">5510 Dock: </label>
+        </a>
+        <input type="number"> <br> <br>
+        <a href="https://www.cdw.com/shop/products/Dell-E-Port-Replicator-port-replicator-331-6307/3859892.aspx?cm_cat=GoogleBase&cm_ite=3859892&cm_pla=NA-NA-DLE_LA&cm_ven=acquirgy&ef_id=V9sw-gAAACahMzuM:20170529215626:s&gclid=CjwKEAjwja_JBRD8idHpxaz0t3wSJAB4rXW5g25BPFJX05-OsF7KYbPrF9CAXc2OHbzWlzm_bxtkSxoC5anw_wcB&s_kwcid=AL!4223!3!197554228968!!!g!57145845294!">
+        <label for="">7470 Dock: </label>
+        </a>
+        <input type="number"> <br> <br>
+        <a href="http://www3.lenovo.com/us/en/accessories/docking/universal-cable-docks-usb/ThinkPad-USB-3-0-Pro-Dock/p/40A70045US">
+        <label for="">YOGA Dock: </label>
+        </a>
+        <input type="number" id="yoga" name="" value="">
+        <br>
+        <button class="proto_button" type="button"disabled="">Generate</button>
+        <div id="lslash"> <h1> DEFUNCT </h1> </div>
+        <div id="rslash"> </div>
+      </form> <br>
+      <div class="it_table">
+        <table border="1">
+          <tr>
+            <th># of Monitors</th>
+            <th>Type of Monitors</th>
+            <th>Equipment</th>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>DVI:</td>
+            <td>FULL SET #</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>VGA:</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>HDMI:</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>MINI:</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div class="cablelocks">
+          <h1>Lock Code Generator</h1>
+          <br>
+          <form class="" action="index.html" method="post">
+          <label for="laptops"># of Laptops: </label>
+          <input type="number" id='laptopNumber'> <br>
+          <br>
+          <button id="lockCodeButton" type="button">Generate</button>
+          <!-- INSERT CODE VALUE DIV -->
+          <div id="codeBox"></div>
+          <!-- <p id="code"> </p> -->
+          </form>
+
+          <!-- <div class="it_table">
+            <table border="1">
+              <tr>
+                <th>Name</th>
+                <th>Laptop</th>
+                <th>Lock Code</th>
+              </tr>
+              <tr>
+                <td>Daniel Talamantez</td>
+                <td>Dell 5520</td>
+                <td>8956</td>
+              </tr>
+              <tr>
+                <td>Andrew McComas</td>
+                <td>Lenovo IdeaPad</td>
+                <td>4355</td>
+              </tr>
+              <tr>
+                <td>Sahil Gil</td>
+                <td>Dell 5520</td>
+                <td>6789</td>
+              </tr>
+              <tr>
+                <td>Rohan Shitole</td>
+                <td>Dell 7470</td>
+                <td>8924</td>
+              </tr>
+            </table> -->
+          </div>
+      </div>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
